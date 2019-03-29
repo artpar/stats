@@ -5,7 +5,7 @@ type Options struct {
 	statusCode *int
 	size       int
 	recorder   ResponseWriter
-	saveResult int
+	saveResult bool
 }
 
 // StatusCode returns the response status code.
